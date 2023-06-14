@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.points-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#point-input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#add-point {
+    padding: 5px 10px;
+}
+
+#point-list {
+    list-style: none;
+    padding: 0;
+}
+
+#point-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#point-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+#map {
+    flex: 2;
+}
